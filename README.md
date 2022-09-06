@@ -33,5 +33,9 @@ yarn hardhat run scripts/deploy.js --network rinkeby
   ```
 - dotenv -> for using environment variables
    ```shell
-  yarn add --prettier dotenv
+  yarn add --dev dotenv
+  ```
+- hardhat-etherscan -> for programatically verifying contract on etherscan
+   ```shell
+  yarn add --dev @nomiclabs/hardhat-etherscan
   ```
