@@ -39,3 +39,8 @@ yarn hardhat run scripts/deploy.js --network rinkeby
    ```shell
   yarn add --dev @nomiclabs/hardhat-etherscan
   ```
+- hardhat-gas-reporter -> get attached to the tests and gives a idea about approx how much gas each of our function is using
+  ```shell
+  yarn add --dev hardhat-gas-reporter
+  ```
+  
