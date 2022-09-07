@@ -43,4 +43,7 @@ yarn hardhat run scripts/deploy.js --network rinkeby
   ```shell
   yarn add --dev hardhat-gas-reporter
   ```
-  
+- solidity-coverage -> goes through all the tests and reports how many lines of our contract are convered under those tests
+  ```shell
+  yarn add --dev solidity-coverage
+  ```
